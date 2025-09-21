@@ -37,21 +37,141 @@
         <div class="divE" ><img class="imgE" src="./assets/images/Group 1.png" alt=""></div>
         </section>
 
-        <section id="skills" class="section">
+        <section id="skills" class="section skillsSection">
             <h2 class="tittle">Skills</h2>
+            <div class="tags">
+                <div class="tag">
+                    <img src="./assets/icons/btnHTML.png" alt="iconHTML">
+                    <span>HTML</span>
+                </div>
+                <div class="tag">
+                    <img src="./assets/icons/iconCSharp.png" alt="iconC#">
+                    <span>C#</span>
+                </div>
+                <div class="tag">
+                    <img src="./assets/icons/iconCPlus.png" alt="iconC++">
+                    <span>C++</span>
+                </div>
+                <div class="tag">
+                    <img src="./assets/icons/iconSSMS.png" alt="iconSSMS">
+                    <span>SSMS</span>
+                </div>
+                <div class="tag">
+                    <img src="./assets/icons/CSSicon.png" alt="iconCSS">
+                    <span>CSS</span>
+                </div>
+                <div class="tag">
+                    <img src="./assets/icons/iconENG.png" alt="iconENG">
+                    <span>INGLES C1</span>
+                </div>
+            </div>
         </section>
 
-        <section id="projects" class="section">
+        <section id="projects" class="projectsSection">
             <h2 class="tittle">Proyectos</h2>
+            <div class="projects">
+                <div class="proj">
+                    <img src="https://www.augustahealth.com/wp-content/uploads/2021/10/labratory-image.jpg" alt="imgLabo">
+                    <h3 class="subtittles">Gestor de Laboratorio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a dolor perspiciatis aliquid! Ad quasi ullam unde accusantium neque veniam. Dicta, veritatis laboriosam suscipit totam quasi velit nihil itaque iste.</p>
+                    <a href="">Ver repositorio</a>
+                </div>
+                <div class="proj">
+                    <img src="https://volpis.com/wp-content/uploads/2025/01/BG.png" alt="imgCatalogo">
+                    <h3 class="subtittles">Catalogo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a dolor perspiciatis aliquid! Ad quasi ullam unde accusantium neque veniam. Dicta, veritatis laboriosam suscipit totam quasi velit nihil itaque iste.</p>
+                    <a href="">Ver repositorio</a>
+                </div>
+            </div>
         </section>
 
-        <section id="education" class="section">
+        <section id="education" class="section educationSection">
             <h2 class="tittle">Educación</h2>
+            <div class="career">
+                <div class="subject">
+                    <h3 class="subtittles">Tecnicatura Universitaria en Programación - UTN</h3>
+                    <h4 class="h4-txt">2024-2026</h4>
+                </div>
+                <div class="subject">
+                    <h3 class="subtittles">Google UX Design Professional Certificate - Coursera</h3>
+                    <h4 class="h4-txt">2025-2026</h4>
+                </div>
+            </div>
         </section>
 
-        <section id="contacto" class="section">
+        <section id="contacto" class="contactSection">
+            <div class="contenedor">
+
+                <h2 class="tittle">Contacto</h2>
+
+                <div class="contenido">
+
+                    <div class="redes">
+                        <div class="col">
+                            <img class="icon" src="./assets/icons/iconEmail.png" alt="emailIcon">
+                            <a href="mailto:sofia.iriarte1908@gmail.com" target="_blank"> sofia.iriarte1908@gmail.com</a>
+                        </div>
+                        <div class="col">
+                            <img class="icon" src="./assets/icons/iconPhone.png" alt="phoneIcon">
+                            <a href="tel:+541162651908">+54 (11) 6265-1908</a>
+                        </div>
+                        <div class="col">
+                            <img class="icon" src="./assets/icons/iconLinkedIn.png" alt="iconLinkedIn">
+                            <a href="https://www.linkedin.com/in/sofia-iriarte-/" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="col">
+                            <img class="icon" src="./assets/icons/iconGitHub.png" alt="iconGitHub">
+                            <a href="https://github.com/BelenIr19" target="_blank">GitHub</a>
+                        </div>
+
+                    </div>
+
+                    <form action="" class="form">
+                        <input type="text" name="name" id="name" placeholder="Nombre" required>
+                        <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+                        <input type="text" name="ausnto" id="asunto" placeholder="Asunto" required>
+                        <textarea name="msj" id="msj" placeholder="Mensaje" required></textarea>
+                        <button type="button">Enviar</button>  
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!--
             <h2 class="tittle">Contacto</h2>
-        </section>
+            <div class="redes">
+                <ul>
+                    <li>
+                        <img src="./assets/icons/iconLinkedIn.png" alt="linkedinIcon">
+                        <a href="https://www.linkedin.com/in/sofia-iriarte-/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <img src="./assets/icons/iconGitHub.png" alt="gitIcon">
+                        <a href="https://github.com/BelenIr19" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <img src="./assets/icons/iconEmail.png" alt="emailIcon">
+                        <a href="mailto:sofia.iriarte1908@gmail.com" target="_blank" >Correo: sofia.iriarte1908@gmail.com</a>
+                    </li>
+                    <li>
+                        <img src="./assets/icons/iconPhone.png" alt="phoneIcon">
+                        <a href="tel:+541162651908">Telefono: +54 11 6265-1908</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="contenido">
+                    <form>
+                        <input type="text" id="name" placeholder="Nombre" required>
+                        <input type="email" id="email" placeholder="Correo electrónico" required>
+                        <input type="text" id="asunto" placeholder="Asunto" required>
+                        <textarea id="msj" placeholder="Mensaje" required></textarea>
+                        <button type="button">Enviar</button>                              
+                    </form>
+                </div>
+            </div>
+        </section>-->
     </main>    
     <footer>
         <h3>Sofia Iriarte</h3>
