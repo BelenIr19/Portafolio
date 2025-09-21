@@ -14,7 +14,7 @@
         <h1>Sofia Iriarte</h1>
         <nav>
             <ul class="navbar">
-                <li><a href="#about">About me</a></li>
+                <li><a href="#about">Sobre mi</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#education">Educación</a></li>
@@ -24,17 +24,26 @@
     </header>
     <main>
         <section id="about" class="section-Principal">
-            <h2 class="about-me">About me</h2>
-            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias? Eos distinctio nesciunt recusandae aperiam non quibusdam unde doloribus incidunt tempora veritatis atque quam inventore architecto deserunt repudiandae, facere harum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis reprehenderit, necessitatibus consequatur, maxime dolore quaerat cum dolorem sunt, sequi suscipit eius? Hic ullam optio quidem eligendi tempore eum, pariatur illum.</p>
-            <img class="imgIcon" src="./assets/images/icon.jpg" alt="">
+            <h2 class="about-me">Sobre mi</h2>
+            <p class="parrafo">  Soy una estudiante que actualmete se encuentra cursando la Tecnicatura Universitaria en Programación en la UTN, una experiencia que me motiva a profundizar cada día más en el mundo de la tecnología. Mi formación académica se complementa con cursos en desarrollo web y soporte IT, que me permiten ampliar mis conocimientos y explorar distintas áreas de interés dentro del ámbito digital. Soy una persona curiosa, flexible y con gran capacidad de adaptación, lo que me impulsa a aprender de manera constante y a superar nuevos desafíos. Mi meta es transformar el aprendizaje en proyectos innovadores, prácticos y con impacto real, donde la creatividad se una con la lógica de la programación.</p>
+            <img class="imgIcon" src="./assets/images/iconCV.jpeg" alt="">
         </section>
 
         <section class="section-Img-Boxes">
-            <div class="divS"><img class="imgSkills" src="./assets/images/Skills.png" alt=""></div>
-            <div class="divP" ><img class="imgProj" src="./assets/images/Proyecto3.jpg" alt=""></div>
+            <div class="divS">
+                <img class="imgSkills" src="./assets/images/Skills.png" alt="">
+                <a class="subtittles" href="#skills">SKILLS</a>
+            </div>
+            <div class="divP" >
+                <img class="imgProj" src="./assets/images/Proyecto3.jpg" alt="">
+                <a class="subtittles" href="#projects">PROYECTOS</a>
+            </div>
         </section>
         <section class="section-Img-Boxes2">
-        <div class="divE" ><img class="imgE" src="./assets/images/Group 1.png" alt=""></div>
+        <div class="divE" >
+            <img class="imgE" src="./assets/images/Group 1.png" alt="">
+            <a class="subtittles" href="#education">EDUCACIÓN</a>
+        </div>
         </section>
 
         <section id="skills" class="section skillsSection">
@@ -73,14 +82,14 @@
                 <div class="proj">
                     <img src="https://www.augustahealth.com/wp-content/uploads/2021/10/labratory-image.jpg" alt="imgLabo">
                     <h3 class="subtittles">Gestor de Laboratorio</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a dolor perspiciatis aliquid! Ad quasi ullam unde accusantium neque veniam. Dicta, veritatis laboriosam suscipit totam quasi velit nihil itaque iste.</p>
-                    <a href="">Ver repositorio</a>
+                    <p>El proyecto TP-FINAL-PROG2 es un sistema de gestión para laboratorios de análisis clínicos, desarrollado en C++ con el objetivo de optimizar la administración de pacientes, turnos, estudios e informes, mejorando la eficiencia y calidad del servicio en entornos clínicos.</p>
+                    <a href="https://github.com/BelenIr19/TP-FINAL-PROG2.git" target="_blank">Ver repositorio</a>
                 </div>
                 <div class="proj">
                     <img src="https://volpis.com/wp-content/uploads/2025/01/BG.png" alt="imgCatalogo">
-                    <h3 class="subtittles">Catalogo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a dolor perspiciatis aliquid! Ad quasi ullam unde accusantium neque veniam. Dicta, veritatis laboriosam suscipit totam quasi velit nihil itaque iste.</p>
-                    <a href="">Ver repositorio</a>
+                    <h3 class="subtittles">Catalogo - Gestión de artículos</h3>
+                    <p>El proyecto consiste en una aplicación de escritorio construida con C# y Windows Forms, diseñada para gestionar un catálogo de artículos. La interfaz permite a los usuarios agregar, editar, eliminar y consultar productos.</p>
+                    <a class="posLink" href="https://github.com/BelenIr19/TP-Winform-Equipo-9A.git" target="_blank">Ver repositorio</a>
                 </div>
             </div>
         </section>
@@ -137,41 +146,6 @@
                 </div>
 
             </div>
-
-            <!--
-            <h2 class="tittle">Contacto</h2>
-            <div class="redes">
-                <ul>
-                    <li>
-                        <img src="./assets/icons/iconLinkedIn.png" alt="linkedinIcon">
-                        <a href="https://www.linkedin.com/in/sofia-iriarte-/" target="_blank">LinkedIn</a>
-                    </li>
-                    <li>
-                        <img src="./assets/icons/iconGitHub.png" alt="gitIcon">
-                        <a href="https://github.com/BelenIr19" target="_blank">GitHub</a>
-                    </li>
-                    <li>
-                        <img src="./assets/icons/iconEmail.png" alt="emailIcon">
-                        <a href="mailto:sofia.iriarte1908@gmail.com" target="_blank" >Correo: sofia.iriarte1908@gmail.com</a>
-                    </li>
-                    <li>
-                        <img src="./assets/icons/iconPhone.png" alt="phoneIcon">
-                        <a href="tel:+541162651908">Telefono: +54 11 6265-1908</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="container">
-                <div class="contenido">
-                    <form>
-                        <input type="text" id="name" placeholder="Nombre" required>
-                        <input type="email" id="email" placeholder="Correo electrónico" required>
-                        <input type="text" id="asunto" placeholder="Asunto" required>
-                        <textarea id="msj" placeholder="Mensaje" required></textarea>
-                        <button type="button">Enviar</button>                              
-                    </form>
-                </div>
-            </div>
-        </section>-->
     </main>    
     <footer>
         <h3>Sofia Iriarte</h3>
@@ -182,8 +156,17 @@
             <a href="#education">Educación</a>
             <a href="#contacto">Contacto</a>
         </div>
-        
-
     </footer>
+    <script>
+  const header = document.querySelector('header');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 10) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+</script>
 </body>
 </html>
